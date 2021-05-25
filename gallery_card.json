@@ -11,26 +11,14 @@
                         "aspect_ratio": 1.42
                     }
                 },
-                "margins": {
-                    "top": "4x",
-                    "left": "6x",
-                    "right": "6x",
-                    "bottom": "5x"
-                },
                 "bottom_text": {
-                    "text": "2019 г. ‧ Комедия/Драма",
+                    "text": "Бронируй, изменяй, отменяй бронирования и записи через ассистента",
                     "typeface": "caption",
-                    "text_color": "secondary",
+                    "text_color": "default",
                     "max_lines": 2,
                     "margins": {
-                        "top": "2x"
+                        "top": "0x"
                     }
-                },
-                "top_text": {
-                    "text": "Однажды в Голливуде",
-                    "typeface": "footnote1",
-                    "text_color": "default",
-                    "max_lines": 2
                 }
 			}
 		]
