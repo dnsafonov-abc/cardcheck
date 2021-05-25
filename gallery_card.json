@@ -17,7 +17,7 @@
                     "text_color": "default",
                     "max_lines": 2,
                     "margins": {
-                        "top": "-2x"
+                        "top": "0x"
                     }
                 }
 			}
