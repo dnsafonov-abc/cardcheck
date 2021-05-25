@@ -7,7 +7,8 @@
                 "image": {
                     "url": "https://github.com/dnsafonov-abc/cardcheck/raw/master/rest.png",
                     "size": {
-                        "width": "large"
+                        "width": "large",
+						"aspect_ratio": 1.42
                     }
                 },
                 "bottom_text": {
