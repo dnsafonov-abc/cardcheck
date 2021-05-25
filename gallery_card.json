@@ -6,6 +6,7 @@
 				"type": "media_gallery_item",
                 "image": {
                     "url": "https://github.com/dnsafonov-abc/cardcheck/raw/master/rest.png",
+					"height": 100,
                     "size": {
                         "width": "large",
 						"aspect_ratio": 1.42
@@ -14,6 +15,24 @@
                 "bottom_text": {
                     "text": "Бронируй, изменяй, отменяй бронирования и записи через ассистента",
                     "typeface": "headline1",
+                    "text_color": "default",
+                    "max_lines": 2
+                }
+			},
+			{
+				"type": "gallery_more_button_item ",
+                "bottom_text": {
+                    "text": "Забронируй столик",
+                    "typeface": "headline2",
+                    "text_color": "default",
+                    "max_lines": 2
+                }
+			},
+			{
+				"type": "gallery_more_button_item ",
+                "bottom_text": {
+                    "text": "Запиши меня в салон красоты",
+                    "typeface": "headline2",
                     "text_color": "default",
                     "max_lines": 2
                 }
