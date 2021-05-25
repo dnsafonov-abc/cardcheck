@@ -1,7 +1,7 @@
 {
 	"card": {
 		"type": "gallery_card",
-		"cells": [
+		"items": [
 			{
 				"type": "media_gallery_item",
                 "image": {
