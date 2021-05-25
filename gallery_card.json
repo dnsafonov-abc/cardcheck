@@ -21,7 +21,7 @@
                     "text": "2019 г. ‧ Комедия/Драма",
                     "typeface": "caption",
                     "text_color": "secondary",
-                    "max_lines": 1,
+                    "max_lines": 2,
                     "margins": {
                         "top": "2x"
                     }
