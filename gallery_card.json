@@ -20,6 +20,25 @@
                         "top": "0x"
                     }
                 }
+			},
+			{
+				"type": "gallery_more_button_item",
+                "image": {
+                    "url": "https://github.com/dnsafonov-abc/cardcheck/raw/master/rest.png",
+					"height": 100,
+                    "size": {
+                        "width": "large"
+                    }
+                },
+                "bottom_text": {
+                    "text": "Бронируй, изменяй, отменяй бронирования и записи через ассистента",
+                    "typeface": "headline1",
+                    "text_color": "default",
+                    "max_lines": 2,
+                    "margins": {
+                        "top": "0x"
+                    }
+                }
 			}
 		]
 	}
