@@ -1,0 +1,160 @@
+{
+	"items": [
+		{
+			"card": {
+				"type": "list_card",
+				"paddings": {
+					"bottom": "12x"
+				},
+				"cells": [
+					{
+						"type": "image_cell_view",
+						"content": {
+							"url": "https://i.ytimg.com/vi/Do-YhNMvafc/maxresdefault.jpg",
+							"placeholder": "placeholder",
+							"height": 170,
+							"actions": [
+								{
+									"type": "text",
+									"text": "Расскажи подробней про Дуэт"
+								}
+							]
+						}
+					},
+					{
+						"type": "text_cell_view",
+						"content": {
+							"text": "Как работает наш сервис?",
+							"typeface": "title1",
+							"text_color": "default",
+							"max_lines": 4
+						},
+						"paddings": {
+							"left": "8x",
+							"top": "6x",
+							"right": "8x"
+						}
+					},
+					{
+						"type": "left_right_cell_view",
+						"paddings": {
+							"top": "8x",
+							"bottom": "2x"
+						},
+						"left": {
+							"type": "simple_left_view",
+							"texts": {
+								"title": {
+									"text": "Бронируй, изменяй, отменяй бронирования и записи через ассистента",
+									"typeface": "button1",
+									"text_color": "secondary",
+									"max_lines": 4,
+									"margins": {
+										"top": "2x",
+										"left": "8x"
+									}
+								},
+								"subtitle": {
+									"text": "Больше не придётся никуда звонить.",
+									"typeface": "button1",
+									"text_color": "secondary",
+									"max_lines": 4,
+									"margins": {
+										"top": "4x",
+										"left": "8x"
+									}
+								}
+							}
+						},
+						"right": {
+							"type": "detail_right_view",
+							"detail": {
+								"text": " ",
+								"typeface": "body1",
+								"text_color": "default",
+								"max_lines": 1
+							},
+							"vertical_gravity": "top"
+						}
+					}
+				]
+			}
+		},
+		{
+			"card": {
+				"type": "grid_card",
+				"items": [
+					{
+						"type": "greeting_grid_item",
+						"top_text": {
+							"text": " ",
+							"typeface": "caption",
+							"text_color": "secondary"
+						},
+						"bottom_text": {
+							"text": "Забронируй столик",
+							"typeface": "headline3",
+							"text_color": "default",
+							"max_lines": 3,
+							"margins": {
+								"top": "2x",
+								"left": "2x",
+								"right": "2x",
+								"bottom": "12x"
+							}
+						},
+						"paddings": {
+							"top": "6x",
+							"left": "6x",
+							"right": "6x",
+							"bottom": "12x"
+						},
+						"actions": [
+							{
+								"type": "text",
+								"text": "Забронировать столик"
+							}
+						]
+					},
+					{
+						"type": "greeting_grid_item",
+						"top_text": {
+							"text": "Нет активных записей",
+							"typeface": "caption",
+							"text_color": "secondary",
+							"margins": {
+								"top": "2x"
+							}
+						},
+						"bottom_text": {
+							"text": "Мои записи",
+							"typeface": "headline3",
+							"text_color": "default",
+							"max_lines": 3,
+							"margins": {
+								"top": "2x",
+								"left": "2x",
+								"right": "2x",
+								"bottom": "12x"
+							}
+						},
+						"paddings": {
+							"top": "6x",
+							"left": "6x",
+							"right": "6x",
+							"bottom": "12x"
+						},
+						"actions": [
+							{
+								"type": "text",
+								"text": "Что с моей записью?"
+							}
+						]
+					}
+				],
+				"columns": 2,
+				"item_width": "small"
+			}
+		}
+	]
+}
