@@ -1,0 +1,99 @@
+{
+	"card": {
+		"type": "list_card",
+		"cells": [
+			{
+				"type": "text_cell_view",
+				"content": {
+					"text": "text 1",
+					"typeface": "body3",
+					"text_color": "default",
+					"max_lines": 0
+				},
+				"paddings": {
+					"left": "8x",
+					"top": "1x",
+					"right": "8x"
+				}
+			},
+			{
+				"type": "text_cell_view",
+				"content": {
+					"text": "text 2",
+					"typeface": "body3",
+					"text_color": "default",
+					"max_lines": 0
+				},
+				"paddings": {
+					"left": "8x",
+					"top": "1x",
+					"right": "8x"
+				}
+			},
+			{
+				"type": "text_cell_view",
+				"content": {
+					"text": "text 3",
+					"typeface": "body3",
+					"text_color": "default",
+					"max_lines": 0
+				},
+				"paddings": {
+					"left": "8x",
+					"top": "1x",
+					"right": "8x"
+				}
+			},
+			{
+				"type": "left_right_cell_view",
+				"divider": {
+					"style": "default",
+					"size": "d3"
+				},
+				"paddings": {
+					"left": "0x",
+					"top": "1x",
+					"right": "0x",
+					"bottom": "1x"
+				},
+				"left": {
+					"type": "simple_left_view",
+					"icon": {
+						"address": {
+							"type": "local",
+							"identificator": "icon1"
+						},
+						"size": {
+							"width": "medium",
+							"height": "medium"
+						},
+						"margins": {
+							"top": "1x",
+							"right": "3x",
+							"bottom": "1x",
+							"left": "8x"
+						},
+						"tint_color": "solid_white"
+					},
+					"title": {
+						"text": "button1",
+						"typeface": "body1",
+						"text_color": "default",
+						"max_lines": 1,
+						"margins": {
+							"top": "4x",
+							"bottom": "4x",
+							"left": "3x"
+						}
+					}
+				},
+				"actions": [
+					{
+						"type": "text",
+						"text": "button1"
+					}
+				]
+			}
+		]
+	}
+}
