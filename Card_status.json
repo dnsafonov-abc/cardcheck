@@ -18,13 +18,13 @@
 					"type": "simple_left_view",
 					"texts": {
 						"title": {
-							"text": "Чайхона",
+							"text": "text 1",
 							"typeface": "body2",
 							"text_color": "default",
 							"max_lines": 2
 						},
 						"subtitle": {
-							"text": "100м • ул. Большая Ордынка, 17 • м. ЦСК • Открыто с 12:00 • Средний чек 1000Р",
+							"text": "text 2",
 							"typeface": "footnote1",
 							"text_color": "secondary",
 							"max_lines": 0,
@@ -37,46 +37,7 @@
 				"right": {
 					"type": "detail_right_view",
 					"detail": {
-						"text": "4,3",
-						"typeface": "body1",
-						"text_color": "default"
-					},
-					"margins": {
-						"left": "2x"
-					},
-					"vertical_gravity": "top"
-				}
-			},
-			{
-				"type": "left_right_cell_view",
-				"paddings": {
-					"top": "8x",
-					"bottom": "8x"
-				},
-				"left": {
-					"type": "simple_left_view",
-					"texts": {
-						"title": {
-							"text": "Чайхона №1",
-							"typeface": "body2",
-							"text_color": "default",
-							"max_lines": 2
-						},
-						"subtitle": {
-							"text": "200м • ул. Большая Ордынка, 17 • м. ЦСК • Открыто с 20:00 • Средний чек 1000Р",
-							"typeface": "footnote1",
-							"text_color": "secondary",
-							"max_lines": 0,
-							"margins": {
-								"top": "2x"
-							}
-						}
-					}
-				},
-				"right": {
-					"type": "detail_right_view",
-					"detail": {
-						"text": "3,9",
+						"text": "text 3",
 						"typeface": "body1",
 						"text_color": "default"
 					},
@@ -90,39 +51,15 @@
 				"type": "button_cell_view",
 				"content": {
 					"text": "Ещё",
-					"typeface": "button2",
-					"style": "default",
-					"type": "accept",
-					"actions": [
-                        {
-                            "type": "text",
-                            "text": "Ещё"
-                        }
-                    ],
-					"margins": {
-						"left": "10x",
-						"top": "5x",
-						"right": "10x",
-						"bottom": "5x"
-					}
-				},
-				"paddings": {
-                "top": "10x"
-				}	
-            },
-			{
-				"type": "button_cell_view",
-				"content": {
-					"text": "Новый поиск",
 					"typeface": "button1",
 					"style": "default",
 					"type": "negative",
 					"actions": [
-                        {
-                            "type": "text",
-                            "text": "Новый поиск"
-                        }
-                    ],
+						{
+							"type": "text",
+							"text": "Ещё"
+						}
+					],
 					"margins": {
 						"left": "10x",
 						"top": "5x",
@@ -131,9 +68,33 @@
 					}
 				},
 				"paddings": {
-                "top": "10x"
-				}	
-            }
+					"top": "10x"
+				}
+			},
+			{
+				"type": "button_cell_view",
+				"content": {
+					"text": "Поиск",
+					"typeface": "button2",
+					"style": "default",
+					"type": "negative",
+					"actions": [
+						{
+							"type": "text",
+							"text": "Поиск"
+						}
+					],
+					"margins": {
+						"left": "10x",
+						"top": "5x",
+						"right": "10x",
+						"bottom": "5x"
+					}
+				},
+				"paddings": {
+					"top": "10x"
+				}
+			}
 		]
 	}
 }
