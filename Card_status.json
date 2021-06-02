@@ -18,7 +18,7 @@
 					"type": "simple_left_view",
 					"texts": {
 						"title": {
-							"text": "text 1",
+							"text": "text \"1\"",
 							"typeface": "body2",
 							"text_color": "default",
 							"max_lines": 2
@@ -53,7 +53,7 @@
 					"text": "Ещё",
 					"typeface": "button1",
 					"style": "default",
-					"type": "negative",
+					"type": "accept",
 					"actions": [
 						{
 							"type": "text",
